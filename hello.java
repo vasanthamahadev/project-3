@@ -1,9 +1,25 @@
-/*
-* The HelloWorld Java program
-* prints "Hello World!" on the computer screen
-*/
-class HelloWorld {
-  public static void main(String[] args) {
-   System.out.println("Hello, World!");
-  }
+package org.jacoco.examples.maven.java;
+
+public class HelloWorld {
+		
+		public String getMessage(boolean bigger) {
+					if (bigger) {
+									return "Hello Universe!";
+											} else {
+															return "Hello World!";
+																	}
+						}
+
+}package org.jacoco.examples.maven.java;
+
+public class HelloWorld {
+		
+		public String getMessage(boolean bigger) {
+					if (bigger) {
+									return "Hello Universe!";
+											} else {
+															return "Hello World!";
+																	}
+						}
+
 }
